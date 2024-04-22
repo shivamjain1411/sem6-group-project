@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Poppins:wght@300;400;500;600;700&family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* color and styling */
+:root{
+    --primary-color:#0370a6;
+    --secondary-color:#0db1c7;
+    --gradient-color:linear-gradient(to right, #0db1c7, #0370a6);
+    --white-color:#f1f1f1;
+    --black-color:#333;
+    --textcolor:#58575d;
+    --whitecolordeam:#f1f1f1;
+    --greytext:#c1bdbe;
+    --inputcolor:#f1ecf0;
+    --bodycolor:#f0eff9; 
+    --cardBG:#e1e1ec;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.section{
+    padding: 4rem 0 2rem ;
+}
+
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
+.btn{
+    padding: 0.6rem 1.5rem;
+    background: var(--gradient-color);
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn a{
+    color: var(--white-color);
+    font-size: 500;
+}
+
+.btn:hover{
+    background: var(--secondary-color);
+}
+
+img, video{
+    width: 100%;
+    height: auto;
+}
+
+input{
+    font-size: 100%;
+}
+
+body{
+    background: var(--bodycolor);
+}
